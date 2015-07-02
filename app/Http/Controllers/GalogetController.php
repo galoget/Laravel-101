@@ -17,6 +17,7 @@ class GalogetController extends Controller
     public function index()
     {
         //
+	return view('pages.galoget.index');
     }
 
     /**
