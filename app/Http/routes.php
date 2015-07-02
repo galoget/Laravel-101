@@ -17,8 +17,6 @@ Route::get('/', function () {
 
 Route::get('/roberto', 'RobertoController@index');
 
-<<<<<<< HEAD
 Route::get('/alex','AlexController@index');
-=======
+
 Route::get('/galoget', 'GalogetController@index');
->>>>>>> 76b891ca8a1118503b09a3464e19f6bd6c2ae500
