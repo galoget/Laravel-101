@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-class LinuxControlController extends Controller
+class LoginController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,8 +16,7 @@ class LinuxControlController extends Controller
      */
     public function index()
     {
-        //
-        return view('pages.linux.index');
+        return view('pages.login.index');
     }
 
     /**

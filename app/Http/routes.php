@@ -20,4 +20,11 @@ Route::get('/roberto', 'RobertoController@index');
 Route::get('/alex','AlexController@index');
 
 Route::get('/galoget', 'GalogetController@index');
+
 Route::get('/Linux', 'LinuxControlController@index');
+
+Route::get('/jessa', 'JessaController@index');
+
+Route::get('/josse', 'JosseController@index');
+
+Route::get('/login', 'LoginController@index');
