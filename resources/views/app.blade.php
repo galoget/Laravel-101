@@ -41,11 +41,14 @@
               <ul class="dropdown-menu">
                 <li><a href="{{ URL::to('/alex') }}">Alex</a></li>
                 <li><a href="{{ URL::to('/Linux') }}">Andres</a></li>
+                <!-- <?php echo URL::to('/edith'); ?> -->
+                <li><a href="{{ URL::to('/edith') }}">Edith</a></li>
                 <li><a href="{{ URL::to('/galoget') }}">Galoget</a></li>
                 <li><a href="{{ URL::to('/jessa') }}">Jessa</a></li>
                 <li><a href="{{ URL::to('/josse') }}">Josse</a></li>
                 <li><a href="{{ URL::to('/miguel') }}">Miguel</a></li>
                 <li><a href="{{ URL::to('/roberto') }}">Roberto</a></li>
+                <li><a href="{{ URL::to('/cristhian') }}">Cristhian</a></li>
               </ul>
             </li>
           </ul>

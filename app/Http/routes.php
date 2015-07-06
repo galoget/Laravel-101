@@ -1,6 +1,7 @@
 <?php
 
 /*
+ * complcache_start_auto_complete)OA
 |--------------------------------------------------------------------------
 | Application Routes
 |--------------------------------------------------------------------------
@@ -28,4 +29,10 @@ Route::get('/jessa', 'JessaController@index');
 Route::get('/josse', 'JosseController@index');
 
 Route::get('/login', 'LoginController@index');
+
 Route::get('/miguel', 'MiguelController@index');
+
+Route::get('/cristhian', 'CristhianController@index');
+//Route::get('/tu-url-como-quieras-que-salga', 'TuControladorController@metodoQueQuierasUsar');
+
+Route::get('/edith', 'EdithController@index');
