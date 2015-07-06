@@ -28,3 +28,4 @@ Route::get('/jessa', 'JessaController@index');
 Route::get('/josse', 'JosseController@index');
 
 Route::get('/login', 'LoginController@index');
+Route::get('/miguel', 'MiguelController@index');
