@@ -45,6 +45,7 @@
                 <li><a href="{{ URL::to('/jessa') }}">Jessa</a></li>
                 <li><a href="{{ URL::to('/josse') }}">Josse</a></li>
                 <li><a href="{{ URL::to('/roberto') }}">Roberto</a></li>
+                <li><a href="{{ URL::to('/cristhian') }}">Cristhian</a></li>
               </ul>
             </li>
           </ul>
