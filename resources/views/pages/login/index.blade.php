@@ -9,7 +9,6 @@
       <div class="form-group">
         <label class="col-md-3">Usuario </label>
         <div class="col-md-9">
-          
           <input type="text" class="form-control" name="login" value="" placeholder="Username or Email">
         </div>
       </div>
@@ -30,11 +29,11 @@
         </div>
         <p class="submit"><input type="submit" class="btn btn-success" name="commit" value="Login"></p>
       </form>
+      <div class="login-help">
+          <p>Forgot your password? <a href="jessa/">Click here to reset it</a>.</p>
+      </div>
     </div>
 
-    <div class="login-help">
-      <p>Forgot your password? <a href="jessa/">Click here to reset it</a>.</p>
-    </div>
 
   </section>
   @endsection
