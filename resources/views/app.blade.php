@@ -45,6 +45,7 @@
                 <!-- <?php echo URL::to('/edith'); ?> -->
                 <li><a href="{{ URL::to('/carlos') }}">Carlos</a></li>
                 <li><a href="{{ URL::to('/edith') }}">Edith</a></li>
+                <li><a href="{{ URL::to('/esther') }}">Esther</a></li>
                 <li><a href="{{ URL::to('/galoget') }}">Galoget</a></li>
                 <li><a href="{{ URL::to('/jessa') }}">Jessa</a></li>
                 <li><a href="{{ URL::to('/josse') }}">Josse</a></li>
