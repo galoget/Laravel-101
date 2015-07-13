@@ -37,6 +37,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class=""><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
+            @if(Auth::check())
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Integrantes <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -54,9 +55,20 @@
                 <li><a href="{{ URL::to('/roberto') }}">Roberto</a></li>
               </ul>
             </li>
+            @endif
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li class=""><a href="{{ URL::to('/login') }}">Login <span class="sr-only">(current)</span></a></li>
+            @if(Auth::guest())
+            <li class=""><a href="{{ URL::to('/auth/register') }}">Registrarse <span class="sr-only">(current)</span></a></li>
+            <li class=""><a href="{{ URL::to('/auth/login') }}">Login <span class="sr-only">(current)</span></a></li>
+            @else
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hola, {{ Auth::user()->name}} <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="{{ URL::to('/auth/logout') }}">Logout</a></li>
+              </ul>
+            </li>
+            @endif
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->

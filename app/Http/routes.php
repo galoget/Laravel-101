@@ -24,6 +24,8 @@ Route::get('/galoget', 'GalogetController@index');
 
 Route::get('/Linux', 'LinuxControlController@index');
 
+Route::get('/carlos', 'CarlosController@index');
+
 Route::get('/jessa', 'JessaController@index');
 
 Route::get('/josse', 'JosseController@index');
