@@ -49,16 +49,6 @@
 							</div>
 						</div>
 
-						<div class="form-group">
-							<label class="col-md-4 control-label">Rol</label>
-							<div class="col-md-6">
-								<select name="tipo" class="form-control">
-									<option value="99">Super administrador</option>
-									<option value="1">Estudiante</option>
-									<option value="2">Profesor</option>
-									<option value="3">Coordinador</option>
-								</select>
-							</div>
 						</div>
 
 						<div class="form-group">

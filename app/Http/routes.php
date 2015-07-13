@@ -20,10 +20,6 @@ Route::get('/roberto', 'RobertoController@index');
 
 Route::get('/alex','AlexController@index');
 
-Route::get('/carlos','CarlosController@index');
-
-Route::get('/esther','EstherController@index');
-
 Route::get('/galoget', 'GalogetController@index');
 
 Route::get('/Linux', 'LinuxControlController@index');
@@ -40,3 +36,8 @@ Route::get('/cristhian', 'CristhianController@index');
 //Route::get('/tu-url-como-quieras-que-salga', 'TuControladorController@metodoQueQuierasUsar');
 
 Route::get('/edith', 'EdithController@index');
+
+Route::controllers([
+	'auth' => 'Auth\AuthController',
+	'password' => 'Auth\PasswordController',
+]);
